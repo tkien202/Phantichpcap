@@ -23,12 +23,12 @@ Phân tích dữ liệu mạng qua tệp tin pcap
 11-Phát hiện tấn công Web
 ```
 ### Cài đặt 
-
+```
 git clone https://github.com/tkien202/Phantichpcap
 cd Phantichpcap
 chmod +x Phantichpcap.py
 ./Phantichpcap.py
-
+```
 ### Yêu cầu cài đặt các modulé
 ```sh
 $ pip install pyshark (cho phép phân tích các gói tin pcap của wireshark)
