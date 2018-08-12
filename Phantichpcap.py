@@ -23,14 +23,15 @@ class colors:
 
 def Banner():
 
-	print ("                                                                                                         ")
-	print (",   .     |                   |        ,---.          |              o         --.--          |          ")
-	print ("|\  |,---.|--- . . .,---.,---.|__/     |---|,---.,---.|    ,   .,---..,---.      |  ,---.,---.|    ,---. ")
-	print ("| \ ||---'|    | | ||   ||    |  \     |   ||   |,---||    |   |`---.|`---.      |  |   ||   ||    `---. ")
-	print ("`  `'`---'`---'`-'-'`---'`    `   `    `   '`   '`---^`---'`---|`---'``---'      `  `---'`---'`---'`---' \n")
+	print ("__________.__                      __  .__       .__                                   ")
+	print ("\______   \  |__ _____    ____   _/  |_|__| ____ |  |__   ______   ____ _____  ______  ")
+	print (" |     ___/  |  \\__  \  /    \  \   __\  |/ ___\|  |  \  \____ \_/ ___\\__  \ \____ \ ")
+	print (" |    |   |   Y  \/ __ \|   |  \  |  | |  \  \___|   Y  \ |  |_> >  \___ / __ \|  |_> >")
+	print (" |____|   |___|  (____  /___|  /  |__| |__|\___  >___|  / |   __/ \___  >____  /   __/ ")
+	print ("               \/     \/     \/                \/     \/  |__|        \/     \/|__|    ' \n")
 
 
-	print colors.GREEN + (" "*43+"[+Công cụ phân tích mạng+]") + colors.END
+	print colors.GREEN + (" "*43+"[+Công cụ phân tích gói tin pcap+]") + colors.END
 	print colors.RED   + (" "*47+"[Phiên bản v1.0(BETA)]") + colors.END
 	print colors.BLUE  + (" "*47+"[tkien202]") + colors.END
 
@@ -97,7 +98,7 @@ def packet():
 			print colors.BLUE + (" " * 25 + "|-CÁC HOẠT ĐỘNG-|\n") + colors.END
 			print(" 1-Top 10 trang hay ghé thăm" + " " * 13 + "2-Trích xuất Emails\n")
 			print(" 3-Tất cả các đường dẫn yêu cầu" + " " * 10 + "4-Danh sách trình duyệt\n")
-			print(" 5-Tra cứu theo chuỗi" + " " * 22 + "6-Chi tiết các kết nối\n")
+			print(" 5-Tra cứu theo chuỗi" + " " * 20 + "6-Chi tiết các kết nối\n")
 			print(" 7-Các cổng đã được sử dụng" + " " * 14 + "8-Danh sách tất cả IP\n")
 			print(" 9-Lọc gói tin thủ công" + " " * 18 + "10- Phân tích Smtp\n")
 			print("              11-Phát hiện tấn công Web")
